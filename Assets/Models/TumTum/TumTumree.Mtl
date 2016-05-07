@@ -1,0 +1,32 @@
+# Created By Carrara 7.0
+
+newmtl Texture_0
+ Ns 1024
+ d 1
+ Ni 0.001
+ illum 2
+ Ka 1 1 1
+ Kd 1 1 1
+ Ks 0 0 0
+ map_Kd Texture_0.png
+
+newmtl Texture_0_1
+ Ns 1024
+ d 1
+ Ni 0.001
+ illum 2
+ Ka 1 1 1
+ Kd 0.290196 0.301961 0.235294
+ Ks 0 0 0
+ map_Kd Texture_0_1.png
+
+newmtl Texture_1
+ Ns 1024
+ d 1
+ Ni 0.001
+ illum 2
+ Ka 1 1 1
+ Kd 0.290196 0.301961 0.235294
+ Ks 0 0 0
+ map_Kd Texture_1.png
+
