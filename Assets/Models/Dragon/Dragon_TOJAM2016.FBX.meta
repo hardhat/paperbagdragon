@@ -36,7 +36,9 @@ ModelImporter:
     400026: Wing_R_01
     400028: Wing_R_02
     4300000: torso
-    7400000: Take 001
+    7400000: Flap
+    7400002: Head Turn
+    7400004: Hit
     9500000: //RootNode
     13700000: torso
   materials:
@@ -59,7 +61,181 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Flap
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: torso
+        weight: 1
+      - path: Torso_01
+        weight: 1
+      - path: Torso_01/connectBone001
+        weight: 1
+      - path: Torso_01/connectBone001/Wing_L_01
+        weight: 1
+      - path: Torso_01/connectBone001/Wing_L_01/Wing_L_02
+        weight: 1
+      - path: Torso_01/connectBone001/Wing_L_01/Wing_L_02/Bone008
+        weight: 1
+      - path: Torso_01/connectBone002
+        weight: 1
+      - path: Torso_01/connectBone002/Wing_R_01
+        weight: 1
+      - path: Torso_01/connectBone002/Wing_R_01/Wing_R_02
+        weight: 1
+      - path: Torso_01/connectBone002/Wing_R_01/Wing_R_02/Bone008(mirrored)
+        weight: 1
+      - path: Torso_01/Neck_01
+        weight: 1
+      - path: Torso_01/Neck_01/Neck_02
+        weight: 1
+      - path: Torso_01/Neck_01/Neck_02/Head_01
+        weight: 1
+      - path: Torso_01/Neck_01/Neck_02/Head_01/Nose
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Head Turn
+      takeName: Take 001
+      firstFrame: 71
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: torso
+        weight: 1
+      - path: Torso_01
+        weight: 1
+      - path: Torso_01/connectBone001
+        weight: 1
+      - path: Torso_01/connectBone001/Wing_L_01
+        weight: 1
+      - path: Torso_01/connectBone001/Wing_L_01/Wing_L_02
+        weight: 1
+      - path: Torso_01/connectBone001/Wing_L_01/Wing_L_02/Bone008
+        weight: 1
+      - path: Torso_01/connectBone002
+        weight: 1
+      - path: Torso_01/connectBone002/Wing_R_01
+        weight: 1
+      - path: Torso_01/connectBone002/Wing_R_01/Wing_R_02
+        weight: 1
+      - path: Torso_01/connectBone002/Wing_R_01/Wing_R_02/Bone008(mirrored)
+        weight: 1
+      - path: Torso_01/Neck_01
+        weight: 1
+      - path: Torso_01/Neck_01/Neck_02
+        weight: 1
+      - path: Torso_01/Neck_01/Neck_02/Head_01
+        weight: 1
+      - path: Torso_01/Neck_01/Neck_02/Head_01/Nose
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 39
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: torso
+        weight: 1
+      - path: Torso_01
+        weight: 1
+      - path: Torso_01/connectBone001
+        weight: 1
+      - path: Torso_01/connectBone001/Wing_L_01
+        weight: 1
+      - path: Torso_01/connectBone001/Wing_L_01/Wing_L_02
+        weight: 1
+      - path: Torso_01/connectBone001/Wing_L_01/Wing_L_02/Bone008
+        weight: 1
+      - path: Torso_01/connectBone002
+        weight: 1
+      - path: Torso_01/connectBone002/Wing_R_01
+        weight: 1
+      - path: Torso_01/connectBone002/Wing_R_01/Wing_R_02
+        weight: 1
+      - path: Torso_01/connectBone002/Wing_R_01/Wing_R_02/Bone008(mirrored)
+        weight: 1
+      - path: Torso_01/Neck_01
+        weight: 1
+      - path: Torso_01/Neck_01/Neck_02
+        weight: 1
+      - path: Torso_01/Neck_01/Neck_02/Head_01
+        weight: 1
+      - path: Torso_01/Neck_01/Neck_02/Head_01/Nose
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
