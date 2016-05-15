@@ -209,7 +209,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 497328, guid: 067d1f95d5965d840a93ed51f5687c07, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 209.00002
+      value: 200.13
       objectReference: {fileID: 0}
     - target: {fileID: 497328, guid: 067d1f95d5965d840a93ed51f5687c07, type: 2}
       propertyPath: m_LocalPosition.z
@@ -302,7 +302,7 @@ Transform:
   m_PrefabInternal: {fileID: 51534505}
   m_GameObject: {fileID: 51534506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 456.5, y: 209.00002, z: 52.1}
+  m_LocalPosition: {x: 456.5, y: 200.13, z: 52.1}
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children:
   - {fileID: 2130611900}
@@ -1215,6 +1215,7 @@ GameObject:
   - 124: {fileID: 664003175}
   - 81: {fileID: 664003174}
   - 114: {fileID: 664003179}
+  - 95: {fileID: 664003180}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1262,7 +1263,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 600
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 33.219807
   m_Depth: -1
   m_CullingMask:
@@ -1284,7 +1285,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 664003173}
   m_LocalRotation: {x: -0.0033539592, y: 0.9985266, z: -0.054161295, w: -0.00018208502}
-  m_LocalPosition: {x: 475, y: 261.6, z: 268.6}
+  m_LocalPosition: {x: 452, y: 228.2, z: 83.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1300,6 +1301,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9176137321b75c04a8e531440dad1351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &664003180
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 664003173}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7fe9a1bf65b454c3eb36fa443b7811f4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &735101966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2156,7 +2174,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f648ff5394a9b8040830d9e5c37c62a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 210.9
+      value: 201.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f648ff5394a9b8040830d9e5c37c62a8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2631,7 +2649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1418862172
 MeshRenderer:
   m_ObjectHideFlags: 0
