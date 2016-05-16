@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class StuffForTitleScreen : MonoBehaviour {
 
@@ -16,12 +17,12 @@ public class StuffForTitleScreen : MonoBehaviour {
 	public IEnumerator launchAfterDelay(string levelName)
 	{
 		yield return new WaitForSeconds(1);
-		Application.LoadLevel (levelName);
+		SceneManager.LoadScene (levelName);
 	}
 
 	public IEnumerator launchAfterDelay(int index)
 	{
 		yield return new WaitForSeconds(1);
-		Application.LoadLevel (index);
+		SceneManager.LoadScene (index);
 	}
 }
